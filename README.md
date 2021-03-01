@@ -6,8 +6,6 @@ A web order system for food delivery!
 
 ###Official domain https://orders.facedrive-foods.com
 
-###Sandbox domain https://ordersandbox.facedrive-foods.com
-
 
 
 
