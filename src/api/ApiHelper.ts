@@ -14,13 +14,8 @@ import {Locales} from "@/i18n/locales";
 import {CouponValidation} from "@/module/interface/Coupon";
 import {errors} from "stripe";
 
-
-const GOOGLE_API_KEY = "AIzaSyD_F4WAaqMCybTmnUS_Ren99slMJyfgMS0"
-// const GOOGLE_API_KEY = "AIzaSyA2wNIyUwA4dxKxRtiGd_oxUmL7IbjnxeM"
-
 export class ApiHelper {
   private static apiHelper: ApiHelper;
-
 
   public static getInstance() {
     if (!this.apiHelper) {
